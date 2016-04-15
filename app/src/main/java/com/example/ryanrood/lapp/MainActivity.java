@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //When button is clicked it will go to Medication Activity
 
-                Intent medication = new Intent(getBaseContext(),MedicationActivity.class);
+                Intent medication = new Intent(getBaseContext(),MedicationHolder.class);
 
                 startActivity(medication);
 
